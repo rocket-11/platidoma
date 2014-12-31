@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency "weary", '1.1.2'
+  gem.add_runtime_dependency "weary", '1.1.3'
   gem.add_runtime_dependency "addressable"
   gem.add_runtime_dependency "happymapper"
 
